@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "aaduser",
-    "MaxGetRowsCount": 500,
     "Name": "Microsoft Entra IDs",
     "NativeCDSDataSourceInfoNameMapping": {
       "aaduserid": "Id",
