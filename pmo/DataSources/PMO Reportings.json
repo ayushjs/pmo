@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "pmo_pmoreporting",
+    "MaxGetRowsCount": 500,
     "Name": "PMO Reportings",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
