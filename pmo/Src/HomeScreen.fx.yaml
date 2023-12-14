@@ -1,7 +1,7 @@
 "HomeScreen As screen.'autoLayout_Sidebar_ver1.0'":
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(245, 245, 245, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -27,18 +27,24 @@
             RadiusTopRight: =8
             ZIndex: =2
 
+            Image1 As image:
+                Height: =70
+                Image: =logo_Corporate
+                ImagePosition: =ImagePosition.Stretch
+                Width: =200
+                ZIndex: =1
+
             Label1 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Start
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(168, 0, 0, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =HeaderContainer1.Height
                 Size: =28
                 Text: ="PMO Reporting"
                 Width: =HeaderContainer1.Width
-                ZIndex: =1
-
-            Image1 As image:
                 ZIndex: =2
 
         BottomContainer1 As groupContainer.horizontalAutoLayoutContainer:
@@ -75,6 +81,8 @@
                     Height: =SidebarContainer1.Height
                     Items: ='PMO Reportings'
                     Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =Min(100, Self.Height - 60)
