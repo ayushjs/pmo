@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_pmo_pmoreporting_forms",
+      "Namespace": "PMO Reportings (Forms)",
+      "Values": {
+        "Information": "59f79bfd-8dfd-4ed8-9f98-fb24c6c6e396"
+      }
+    },
+    {
+      "Kind": "default.cds_aaduser_forms",
+      "Namespace": "Microsoft Entra IDs (Forms)",
+      "Values": {
+        "Information": "dd5ded01-9aad-4e25-8d0e-e9acdaecbe4e"
+      }
+    }
+  ]
+}

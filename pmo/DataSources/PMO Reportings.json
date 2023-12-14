@@ -1,0 +1,201 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pmo_pmoreportings",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pmo_pmoreporting",
+    "Name": "PMO Reportings",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr501_pmo_PMOReporting_MultiUser_aaduser": "Microsoft Entra IDs",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pmo_benefits": "Benefits",
+      "pmo_challenges": "Challenges",
+      "pmo_enddate": "End Date",
+      "pmo_ITOwner": "IT Owner",
+      "pmo_month_2_1_status": "Month_2_1_Status",
+      "pmo_month_2_1_text": "Month_2_1_Text",
+      "pmo_month_2_2_status": "Month_2_2_Status",
+      "pmo_month_2_2_text": "Month_2_2_Text",
+      "pmo_month_2_3_status": "Month_2_3_Status",
+      "pmo_month_2_3_text": "Month_2_3_Text",
+      "pmo_plannertaskid": "Planner Task ID",
+      "pmo_pmoreporting_AsyncOperations": "System Jobs",
+      "pmo_pmoreporting_BulkDeleteFailures": "Bulk Delete Failures",
+      "pmo_pmoreporting_DuplicateBaseRecord": "Duplicate Records (pmo_pmoreporting_DuplicateBaseRecord)",
+      "pmo_pmoreporting_DuplicateMatchingRecord": "Duplicate Records (pmo_pmoreporting_DuplicateMatchingRecord)",
+      "pmo_pmoreporting_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pmo_pmoreporting_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pmo_pmoreporting_ProcessSession": "Process Sessions",
+      "pmo_pmoreporting_SyncErrors": "Sync Errors",
+      "pmo_pmoreportingid": "PMO Reporting",
+      "pmo_rag": "RAG",
+      "pmo_resourceno": "Resource No",
+      "pmo_Sponsor": "Sponsor",
+      "pmo_startdate": "Start Date",
+      "pmo_status": "Status (pmo_status)",
+      "pmo_summary": "Summary",
+      "pmo_team": "Team",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "PMO Reportings",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "PMO Reportings (Views)",
+    "Name": "_pmo_pmoreporting_views",
+    "RelatedEntityName": "PMO Reportings",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "46d2d5b7-fc2f-440a-a8be-65de7d208869": "PMO Reporting Associated View",
+      "6d6d3392-61f2-473f-bbec-9d871aedac90": "Inactive PMO Reportings",
+      "ba8e571f-74bd-4133-9029-6085b947db24": "Active PMO Reportings",
+      "d102ed03-e652-45c2-beda-08cc2a40c666": "PMO Reporting Advanced Find View",
+      "fdb3c96e-179a-4b17-bad0-f222c2ab3b7a": "PMO Reporting Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Month_2_1_Status (PMO Reportings)",
+    "Name": "pmo_pmoreporting_pmo_month_2_1_status",
+    "OptionSetInfoNameMapping": {
+      "0": "White",
+      "1": "Green",
+      "2": "Amber",
+      "3": "Red"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pmo_month_2_1_status",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pmo_month_2_1_status",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Month_2_2_Status (PMO Reportings)",
+    "Name": "pmo_pmoreporting_pmo_month_2_2_status",
+    "OptionSetInfoNameMapping": {
+      "0": "White",
+      "1": "Green",
+      "2": "Amber",
+      "3": "Red"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pmo_month_2_2_status",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pmo_month_2_2_status",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Month_2_3_Status (PMO Reportings)",
+    "Name": "pmo_pmoreporting_pmo_month_2_3_status",
+    "OptionSetInfoNameMapping": {
+      "0": "White",
+      "1": "Green",
+      "2": "Amber",
+      "3": "Red"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pmo_month_2_3_status",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pmo_month_2_3_status",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (PMO Reportings)",
+    "Name": "pmo_pmoreporting_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (PMO Reportings)",
+    "Name": "pmo_pmoreporting_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "RAG Status",
+    "Name": "pmo_ragstatus",
+    "OptionSetInfoNameMapping": {
+      "1": "Green",
+      "2": "Amber",
+      "3": "Red"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pmo_rag",
+        "OptionSetReferenceEntityName": "PMO Reportings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pmo_rag",
+    "RelatedEntityName": "PMO Reportings",
+    "Type": "OptionSetInfo"
+  }
+]
